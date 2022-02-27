@@ -1,7 +1,7 @@
 const generateTeam = (team) => {
   const generateManager = (manager) => {
     return `
-    <div class="card" style="width: 18rem;">
+    <div class="card mr-2 ml-2 mt-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-title bg-dark text-white">${manager.getName()}<br>Manager</h5>
             <p class="card-text list-group-item">ID:${manager.getId()}</p>
@@ -13,7 +13,7 @@ const generateTeam = (team) => {
 
   const generateIntern = (intern) => {
     return `
-        <div class="card" style="width: 18rem;">
+        <div class="card mr-2 ml-2 mt-2" style="width: 18rem;">
             <div class="card-body">
                 <h5 class="card-title bg-dark text-white">${intern.getName()}<br>Intern</h5>
                 <p class="card-text list-group-item">ID:${intern.getId()}</p>
@@ -26,7 +26,7 @@ const generateTeam = (team) => {
 
   const generateEngineer = (engineer) => {
     return `
-        <div class="card" style="width: 18rem;">
+        <div class="card mr-2 ml-2 mt-2" style="width: 18rem;">
             <div class="card-body">
                 <h5 class="card-title bg-dark text-white">${engineer.getName()}<br>Engineer</h5>
                 <p class="card-text list-group-item">ID:${engineer.getId()}</p>

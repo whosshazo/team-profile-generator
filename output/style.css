@@ -2,6 +2,11 @@
   padding-left: 1rem;
 }
 
+.row {
+  display: flex;
+  justify-content: center;
+}
+
 .card-body {
   padding: 1rem;
 }
@@ -22,6 +27,6 @@ body {
 }
 
 .my-team {
-  font-size: 4rem;
+  font-size: 3rem;
   padding: 2rem;
 }
